@@ -48,3 +48,9 @@ switch (gaji) {
         console.log('dibawah rata-rata');
         break;
 }
+// array adalah type data yg memiliki beberapa data dgn type yg berbeda-beda.
+let array1 = ["A", "AB", 3, 4.5, true, false, { "key": "value" }, ["array dalam array"]];
+    // index   0    1    2   3    4     5, ...
+console.log("tampilkan array: ", array1);
+console.log("array index 5 adalah: ", array1[6]["key"]);
+console.log("array di dalam di array: ", array1[7][0]);
