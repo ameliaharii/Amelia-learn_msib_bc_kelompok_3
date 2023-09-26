@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Belajar Javascript</title>
+</head>
+<body>
+    <h1>Tipe Data Object Pada Javascript</h1>
+
+    <!-- id hasil -->
+    <div id="hasil"></div>
+
+    <script>
+    // tipe data object
+        var manusia = {
+            nama : "amelia",
+            alamat : "surabaya",
+            umur : 21,
+            pekerjaan : "mahasiswa"
+        };
+
+        // menampilkan tipe data object pada element id hasil
+document.getElementById("hasil").innerHTML = manusia.nama + " tinggal di " + manusia.alamat + " .dia sekarang berumur"+ manusia.umur +" dan bekerja sebagai " + manusia.pekerjaan;
+    </script>
+</body>
+</html>
