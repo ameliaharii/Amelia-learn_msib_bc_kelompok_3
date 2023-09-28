@@ -2,6 +2,7 @@
   "dependencies": {
     "ethers": "^6.7.1",
     "even": "^0.1.1",
+    "json-server": "^0.17.3",
     "solc": "^0.8.21"
   }
 }
